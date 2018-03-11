@@ -21,7 +21,7 @@ nav{
 header{
   background-image: url("./home/home-banner.jpg");
   background-position: center;
-  height: 350px;
+  height: 200px;
   margin-top: 55px;
   width: 100%;
   top: 0;
@@ -41,7 +41,7 @@ a{
 }
 
 .overlay{
-  width: 20%;
+  width: 10%;
   height: 100%;
   display: block;
   margin: 0 auto;
@@ -49,25 +49,28 @@ a{
 
 h1{
   width: 1000px;
+  margin-top: 20px;
   color: black;
   text-align: center;
 }
+
 h2{
   text-align: center;
 }
+
 h3{
   text-align: center;
 }
+
 main{
-  margin-top: 400px;
-  height: 105px;
+  margin-top: 300px;
 }
 
 .home-section1{
   float: left;
   width: 1000px;
   margin-left: 60px;
-  margin-top: 25px;
+  margin-top: 5px;
 }
 
 .home-section2{
@@ -93,7 +96,7 @@ h3{
 }
 
 .map{
-  width: 60%;
+  width: 80%;
   margin-left: 40px;
   display: inline-block;
 }
@@ -119,6 +122,11 @@ h4{
 .over{
   margin-left: 100px;
 }
+
 .jobs1{
-  width: 100%;
+  width: 120%;
+}
+
+.jobs2{
+  width: 50%;
 }
