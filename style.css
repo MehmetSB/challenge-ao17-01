@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+}
+
+body{
+  background-color:  #333333;
+}
+
+nav{
+  background-color:  #1a0d00;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  height: 55px;
+  width: 100%;
+}
+
+header{
+  background-image: url("./home/home-banner.jpg");
+  background-position: center;
+  height: 350px;
+  margin-top: 55px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+ul{
+  padding: 12px;
+  font-size: 23px;
+}
+
+a{
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.overlay{
+  width: 20%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+h1{
+  width: 1000px;
+  color: black;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+main{
+  margin-top: 400px;
+  height: 105px;
+}
+
+.home-section1{
+  float: left;
+  width: 1000px;
+  margin-left: 60px;
+  margin-top: 25px;
+}
+
+.home-section2{
+  float: right;
+  width: 400px;
+  margin-right: 250px;
+  margin-top: 25px;
+}
+
+p{
+  color: white;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+h3{
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.verwachting{
+  margin-left: -10px;
+}
+
+.map{
+  width: 60%;
+  margin-left: 40px;
+  display: inline-block;
+}
+li{
+  font-size: 20px;
+  line-height: 25px;
+  margin-left: 30px;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+h4{
+  font-size: 25px;
+  margin-left: 43px;
+}
+
+.contact{
+  width: 150%;
+  margin-left: 40px;
+}
+
+.over{
+  margin-left: 100px;
+}
+.jobs1{
+  width: 100%;
+}
