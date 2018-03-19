@@ -34,12 +34,6 @@ ul{
   font-size: 23px;
 }
 
-a{
-  margin-right: 15px;
-  color: white;
-  text-decoration: none;
-}
-
 .overlay{
   width: 10%;
   height: 100%;
@@ -96,26 +90,31 @@ h3{
 }
 
 .map{
-  width: 80%;
+  width: 60%;
   margin-left: 40px;
   display: inline-block;
 }
-li{
+
+li.info{
   font-size: 20px;
   line-height: 25px;
-  margin-left: 30px;
   color: white;
+  margin-left: 30px;
+
 }
+
 ul{
   list-style: none;
+  color: white;
 }
+
 h4{
   font-size: 25px;
   margin-left: 43px;
 }
 
 .contact{
-  width: 150%;
+  width: 135%;
   margin-left: 40px;
 }
 
@@ -124,9 +123,107 @@ h4{
 }
 
 .jobs1{
-  width: 120%;
+  width: 110%;
 }
 
 .jobs2{
   width: 50%;
 }
+
+footer{
+  width: 100%;
+  background-color: #1a0d00;
+  bottom: 0;
+  position: absolute;
+  height: 5%;
+}
+
+a{
+  display: inline;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+li{
+  display: inline-block;
+}
+
+.footertext{
+  text-align: center;
+}
+
+
+
+
+
+#carousel {
+	width:255px;
+	height:290px;
+	margin:0 auto;
+}
+
+#slides {
+	overflow:hidden;
+	/* fix ie overflow issue */
+	position:relative;
+	width:250px;
+	height:250px;
+	border:1px solid #ccc;
+}
+
+/* remove the list styles, width : item width * total items */
+#slides ul {
+	position:relative;
+	left:0;
+	top:0;
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:750px;
+}
+
+/* width of the item, in this case I put 250x250x gif */
+#slides li {
+	width:250px;
+	height:250px;
+	float:left;
+}
+
+#slides li img {
+	padding:5px;
+}
+
+/* Styling for prev and next buttons */
+#buttons {
+	padding:0 0 5px 0;
+	float:right;
+}
+
+#buttons a {
+	display:block;
+	width:31px;
+	height:32px;
+	text-indent:-999em;
+	float:left;
+	outline:0;
+}
+
+a#prev {
+	background:url(../jobs/jobs-photo1.jpg) 0 -31px no-repeat;
+}
+
+a#prev:hover {
+	background:url(../jobs/jobs-photo1.jpg) 0 0 no-repeat;
+}
+
+a#next {
+	background:url(../jobs/jobs-photo2.jpg) -32px -31px no-repeat;
+}
+
+a#next:hover {
+	background:url(../jobs/jobs-photo3.jpg) -32px 0 no-repeat;
+}
+
+.clear {clear:both}

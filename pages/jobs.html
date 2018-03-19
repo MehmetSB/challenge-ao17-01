@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../js/script.js"></script>
   </head>
   <body>
     <nav>
       <ul>
-        <a href="home.html">Home</a>
-        <a href="over.html">Over</a>
-        <a href="jobs.html">Jobs</a>
-        <a href="contact.html">Contact</a>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="over.html">Over</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <header>
@@ -25,17 +26,42 @@
         </p>
         <h3>WIL JE WERKEN BIJ ESPRESSOBAR CHAVEZ? <br>DAN IS DIT WAT WE VAN JE VERWACHTEN:</h3>
         <ul>
-          <li class="verwachting">  - Jij wilt gasten een fijn moment in hun dag bezorgen. Iedere klant, iedere dag weer.</li>
-          <li class="verwachting">    - Flexibele werktijden zijn voor jou geen probleem.</li>
-          <li class="verwachting">    - Je pakt zaken met passie aan.</li>
-          <li class="verwachting">  - Je snapt ons concept en draagt het graag uit.</li>
-          <li class="verwachting">  - Niet alleen de gasten, maar ook je collega’s kunnen rekenen op jouw glimlach.</li>
+          <li class="verwachting">- Jij wilt gasten een fijn moment in hun dag bezorgen. Iedere klant, iedere dag weer.</li>
+          <li class="verwachting">- Flexibele werktijden zijn voor jou geen probleem.</li>
+          <li class="verwachting">- Je pakt zaken met passie aan.</li>
+          <li class="verwachting">- Je snapt ons concept en draagt het graag uit.</li>
+          <li class="verwachting">- Niet alleen de gasten, maar ook je collega’s kunnen rekenen op jouw glimlach.</li>
         </ul>
-        <img src="../jobs/jobs-banner.jpg" class="jobs2">
+        <img src="../jobs/jobs-banner.jpg" class="jobs2" alt="jobs2">
       </section>
       <section class="home-section2">
-        <img src="../jobs/jobs-photo3.jpg" class="jobs1">
+      <h2><img src="../jobs/jobs-photo3.jpg" class="jobs1" alt="jobs1"></h2>
       </section>
+      <div id="carousel">
+      	<div id="buttons">
+      		<a href="#" id="prev">prev</a>
+      		<a href="#" id="next">next</a>
+      		<div class="clear"></div>
+      	</div>
+
+      	<div class="clear"></div>
+
+      	<div id="slides">
+      		<ul>
+      			<li><img src="../jobs/jobs-photo1.jpg" width="240" height="240" alt="Slide 1"/></li>
+      			<li><img src="../jobs/jobs-photo2.jpg" width="240" height="240" alt="Slide 2"/></li>
+      			<li><img src="../jobs/jobs-photo3.jpg" width="240" height="240" alt="Slide 3"/></li>
+      		</ul>
+      		<div class="clear"></div>
+      	</div>
+
+      </div>
+
+
+
     </main>
+    <footer>
+      <p class="footertext">Grote Markt 24 - 4201EB Gorinchem - Tel. 0183 821 473 - K.V.K. NR. 32084974 - Bank rek. NR. NL04RABO0102492220</p>
+    </footer>
   </body>
 </html>
