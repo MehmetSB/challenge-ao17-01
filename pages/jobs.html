@@ -35,30 +35,31 @@
         <img src="../jobs/jobs-banner.jpg" class="jobs2" alt="jobs2">
       </section>
       <section class="home-section2">
-      <h2><img src="../jobs/jobs-photo3.jpg" class="jobs1" alt="jobs1"></h2>
+        <h2>Foto's </h2>
+          <img class="Slides" src="../jobs/jobs-photo1.jpg" alt="photo1">
+          <img class="Slides" src="../jobs/jobs-photo2.jpg" alt="photo2">
+          <img class="Slides" src="../jobs/jobs-photo3.jpg" alt="photo3">
+          <img class="Slides" src="../jobs/jobs-photo4.jpg" alt="photo4">
+          <button class="display-left" onclick="plusDivs(-1)">&#10094;Vorige</button>
+          <button class="display-right" onclick="plusDivs(+1)">Volgende &#10095;</button>
+          <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("Slides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            x[slideIndex-1].style.display = "block";
+          }
+        </script>
       </section>
-      <div id="carousel">
-      	<div id="buttons">
-      		<a href="#" id="prev">prev</a>
-      		<a href="#" id="next">next</a>
-      		<div class="clear"></div>
-      	</div>
-
-      	<div class="clear"></div>
-
-      	<div id="slides">
-      		<ul>
-      			<li><img src="../jobs/jobs-photo1.jpg" width="240" height="240" alt="Slide 1"/></li>
-      			<li><img src="../jobs/jobs-photo2.jpg" width="240" height="240" alt="Slide 2"/></li>
-      			<li><img src="../jobs/jobs-photo3.jpg" width="240" height="240" alt="Slide 3"/></li>
-      		</ul>
-      		<div class="clear"></div>
-      	</div>
-
-      </div>
-
-
-
     </main>
     <footer>
       <p class="footertext">Grote Markt 24 - 4201EB Gorinchem - Tel. 0183 821 473 - K.V.K. NR. 32084974 - Bank rek. NR. NL04RABO0102492220</p>
